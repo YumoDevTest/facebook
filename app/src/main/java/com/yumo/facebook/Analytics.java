@@ -12,6 +12,6 @@ public class Analytics {
     }
 
     public void logSentFriendRequestEvent (String event) {
-        logger.logEvent("sentFriendRequest");
+        logger.logEvent(event);
     }
 }
