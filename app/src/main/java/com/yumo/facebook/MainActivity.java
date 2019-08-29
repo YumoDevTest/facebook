@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity
             analytics.logSentFriendRequestEvent("nav_slideshow");
 
         } else if (id == R.id.nav_tools) {
-
+            FbShare.share(this);
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
